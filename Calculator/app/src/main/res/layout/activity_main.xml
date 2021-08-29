@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/expressao"
+        android:id="@+id/txt_expressao"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:gravity="end"
@@ -21,7 +21,7 @@
         android:textSize="40sp"/>
 
     <TextView
-        android:id="@+id/resultado"
+        android:id="@+id/txt_resultado"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:gravity="end"
@@ -38,12 +38,12 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/limpar"
+            android:id="@+id/txt_limpar"
             style="@style/Operators_Button"
             android:text="C"/>
 
         <TextView
-            android:id="@+id/divisao"
+            android:id="@+id/txt_divisao"
             style="@style/Operators_Button"
             android:text="/"/>
     </LinearLayout>
@@ -55,22 +55,22 @@
         android:layout_weight="1">
 
         <TextView
-            android:id="@+id/sete"
+            android:id="@+id/txt_sete"
             style="@style/Numbers_Button"
             android:text="7"/>
 
         <TextView
-            android:id="@+id/oito"
+            android:id="@+id/txt_oito"
             style="@style/Numbers_Button"
             android:text="8"/>
 
         <TextView
-            android:id="@+id/nove"
+            android:id="@+id/txt_nove"
             style="@style/Numbers_Button"
             android:text="9"/>
 
         <TextView
-            android:id="@+id/multiplicacao"
+            android:id="@+id/txt_multiplicacao"
             style="@style/Operators_Button"
             android:text="x"/>
 
@@ -83,22 +83,22 @@
         android:layout_weight="1">
 
         <TextView
-            android:id="@+id/quatro"
+            android:id="@+id/txt_quatro"
             style="@style/Numbers_Button"
             android:text="4"/>
 
         <TextView
-            android:id="@+id/cinco"
+            android:id="@+id/txt_cinco"
             style="@style/Numbers_Button"
             android:text="5"/>
 
         <TextView
-            android:id="@+id/seis"
+            android:id="@+id/txt_seis"
             style="@style/Numbers_Button"
             android:text="6"/>
 
         <TextView
-            android:id="@+id/subtracao"
+            android:id="@+id/txt_subtracao"
             style="@style/Operators_Button"
             android:text="-"/>
 
@@ -111,22 +111,22 @@
         android:layout_weight="1">
 
         <TextView
-            android:id="@+id/um"
+            android:id="@+id/txt_um"
             style="@style/Numbers_Button"
             android:text="1"/>
 
         <TextView
-            android:id="@+id/dois"
+            android:id="@+id/txt_dois"
             style="@style/Numbers_Button"
             android:text="2"/>
 
         <TextView
-            android:id="@+id/tres"
+            android:id="@+id/txt_tres"
             style="@style/Numbers_Button"
             android:text="3"/>
 
         <TextView
-            android:id="@+id/adicao"
+            android:id="@+id/txt_adicao"
             style="@style/Operators_Button"
             android:text="+"/>
 
@@ -139,23 +139,23 @@
         android:layout_weight="1">
 
         <TextView
-            android:id="@+id/ponto"
+            android:id="@+id/txt_ponto"
             style="@style/Numbers_Button"
             android:text="."/>
 
         <TextView
-            android:id="@+id/zero"
+            android:id="@+id/txt_zero"
             style="@style/Numbers_Button"
             android:text="0"/>
 
         <ImageView
-            android:id="@+id/apagar"
+            android:id="@+id/txt_apagar"
             style="@style/Numbers_Button"
             android:src="@drawable/backspace"
             android:scaleType="center"/>
 
         <TextView
-            android:id="@+id/igual"
+            android:id="@+id/txt_igual"
             style="@style/Operators_Button"
             android:text="="/>
 
